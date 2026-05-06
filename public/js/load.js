@@ -56,7 +56,7 @@ function favorite() {
         }
         setObj("favoritedGames", favoritedGames);
     } else if (app) {
-        var index = favoritedGames.indexOf(game);
+        index = favoritedGames.indexOf(game);
         if (index !== -1) {
             favoritedGames.splice(index, 1);
             favoritedButton.classList.remove("fas")
